@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    box-sizing: border-box; /* Include padding and borders in element's total width */
+}
+
+* {
+    box-sizing: inherit; /* Inherit box-sizing from body */
+}
+
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.activity {
+    margin-top: 20px;
+}
+
+.job-post {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+.nav-list a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A75D5D; 
+    padding: 0px 0px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2px;
+           ;
+}
+
+.navbar h1 .highlight {
+    background-color: #FC766A;
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+.navbar h1 {
+    color: #FC766A;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0 15px; 
+}
+
+.nav-list a:hover {
+    color: #f28b5f; 
+}
+
+.job-post h2 {
+    margin: 0;
+}
+
+.job-post p {
+    margin: 5px 0;
+}
+
+.button {
+    background-color:#0DC100;
+    
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+.post-job-btn {
+    background-color: #783937;
+    padding: 22px;
+    border-radius: 4px;
+  }
+
+.Dilamar {
+    display: flex;
+    margin: 20px;
+}
+
+.Dilamar h2 {
+    font-weight: 200;
+}
+.fas {
+    margin-right: 8px;
+    margin-top: 25px;
+}
+
+
+h1{
+    margin-left: 10px;
+    
+}
+.job-post h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-weight: 200;
+    padding: 10px;
+}
+.job-post p{
+    padding: 4px;
+}
