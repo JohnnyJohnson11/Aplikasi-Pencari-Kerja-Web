@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umpan Balik</title>
+    <link rel="stylesheet" href="kirim_feedback_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<!-- NavBar -->
+<body>
+    <div class="navbar">
+        <h1><span class="highlight">Seek</span> Employer</h1>
+        <ul class="nav-list" style="margin-right: 30px;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Pekerjaan</a></li>
+            <li><a href="#">Produk</a></li>
+            <li><a href="#">PT Adhimara</a></li>
+            <li><button class="post-job-btn">+ Posting Pekerjaan</button></li>
+        </ul>
+    </div>
+
+    <div class="tab-bar">
+        <ul class="tab-list">
+            <li><a href="#" class="">Buka</a></li>
+            <li><a href="#" class="active">Kandidat</a></li>
+        </ul>
+    </div>       
+
+    <!-- Umpan Balik -->
+    <main class="feedback">
+        <h1>Umpan Balik</h1>
+        <p>Tulis Umpan Balik atau alasan mengapa anda menolak lamaran dari <a href="#" class="candidate-link">John Marston</a></p>
+        <form class="feedback-form">
+            <div class="editor">
+                <div class="toolbar">
+                    <button type="button" onclick="formatText('bold')" data-command="bold"><b>B</b></button>
+                    <button type="button" onclick="formatText('italic')" data-command="italic">
+                        <img src="images/itallic.png" alt="Italic" class="icon">
+                    </button>
+                    <button type="button" onclick="formatText('insertUnorderedList')" data-command="insertUnorderedList">
+                        <img src="images/bullet_point.png" alt="Bullets" class="icon">
+                    </button>
+                </div>
+                <div id="editor" contentEditable="true" class="editable" data-placeholder="Tulis umpan balik Anda di sini..."></div>
+            </div>
+            <button type="submit" class="submit-button">Kirim Umpan Balik &#8594;</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="#">Tentang SEEK</a>
+            <a href="#">Mitra International</a>
+            <a href="#">Layanan Mitra</a>
+            <a href="#">Keamanan</a>
+            <a href="#">Syarat dan Ketentuan</a>
+            <a href="#">Kunjungi Pusat Bantuan Kami</a>
+        </div>
+    </footer>
+
+    <script src="text_formatting.js"></script>
+</body>
+</html>

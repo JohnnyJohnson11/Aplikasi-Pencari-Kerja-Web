@@ -1,0 +1,266 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #A75D5D;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header .highlight {
+    color: #FC766A;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.post-job-btn {
+    background-color: #783937;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Main Section */
+main {
+    flex: 1;
+    width: 90%;
+    max-width: 1500px;
+    margin: 20px auto; 
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    position: relative;
+}
+
+main h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    max-width: 1100px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+.add-team-btn {
+    background-color: #277EED;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.team-count {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.team-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.team-table th, .team-table td {
+    padding: 10px;
+    text-align: left;
+    border: none;
+}
+
+.team-table th {
+    background-color: #f9f9f9;
+}
+
+.role-label {
+    background-color: #E7F3FF; /* Biru pudar */
+    border: 1px solid #CCE5FF; /* Border biru pudar */
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.permission-btn {
+    background-color: #E7F3FF;
+    border: 1px solid #CCE5FF;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    cursor: default;
+}
+
+.action-buttons button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 9px;
+}
+
+.action-buttons button img {
+    width: auto;
+    height: auto;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+/* Footer */
+.footer {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+    }
+
+    .search-bar input {
+        max-width: 100%;
+    }
+
+    .add-team-btn {
+        justify-content: center;
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .team-table th, .team-table td {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
+
+/* Animasi Transisi */
+.main-container {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-out-left {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+    }
+
+    .search-bar input {
+        max-width: 100%;
+    }
+
+    .add-team-btn {
+        justify-content: center;
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .team-table th,
+    .team-table td {
+        font-size: 14px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
