@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seek Employer - Kelola Lamaran Kandidat</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="posting_pekerjaan_1.4_styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <h1><span class="highlight">Seek</span> Employer</h1>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pekerjaan</a></li>
+        <li><a href="#">Produk</a></li>
+        <li><a href="#">PT Adhimara</a></li>
+        <li><button class="post-job-btn">+ Posting Pekerjaan</button></li>
+      </ul>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Container Utama -->
+    <div class="container">
+      <!-- Step Header -->
+      <div class="step-header">
+        <h2 class="kelola_peran">Buat Iklan Lowongan Kerja</h2>
+      </div>
+
+      <!-- Stepper -->
+      <div class="stepper">
+        <div class="step completed">
+          <span>✔</span>
+          <p>Klasifikasi</p>
+        </div>
+        <div class="progress-line"></div>
+        <div class="step completed">
+          <span>✔</span>
+          <p>Jenis Iklan</p>
+        </div>
+        <div class="progress-line"></div>
+        <div class="step completed">
+          <span>✔</span>
+          <p>Tulis</p>
+        </div>
+        <div class="progress-line"></div>
+        <div class="step active">
+          <span>4</span>
+          <p>Kelola</p>
+        </div>
+      </div>
+      <!-- Stepper End -->
+
+      <!-- Kelola Lamaran Kandidat -->
+      <div class="section-header">
+        <h2>
+          Kelola lamaran kandidat <span class="optional">(opsional)</span>
+        </h2>
+      </div>
+
+      <!-- Form Section -->
+      <div class="form-section">
+        <!-- Pertanyaan untuk Kandidat -->
+        <div class="candidate-section">
+          <h3 class="section-title">Pertanyaan untuk kandidat</h3>
+          <p class="description-text">
+            Tambahkan hingga 8 pertanyaan yang mudah dijawab ke iklan lowongan
+            Anda. Saat meninjau kandidat, Anda akan dapat dengan mudah menyaring
+            kandidat yang cocok dengan jawaban pilihan Anda.
+          </p>
+          <div class="search-box">
+            <label for="question-search" class="search-label"
+              >Cari Pertanyaan</label
+            >
+            <input
+              type="text"
+              id="question-search"
+              placeholder="Cari Pertanyaan"
+            />
+          </div>
+        </div>
+
+        <!-- Rekomendasi Pertanyaan -->
+        <div class="question-section">
+          <h4 class="section-title">Rekomendasi pertanyaan</h4>
+          <div class="question-options">
+            <div class="question-item">
+              <input type="checkbox" id="question1" />
+              <label for="question1"
+                >Berapa gaji bulanan yang Anda inginkan?</label
+              >
+            </div>
+            <div class="question-item">
+              <input type="checkbox" id="question2" />
+              <label for="question2"
+                >Berapa tahun pengalaman Anda sebagai Staff Administrasi?</label
+              >
+            </div>
+            <div class="question-item">
+              <input type="checkbox" id="question3" />
+              <label for="question3"
+                >Produk Microsoft apa saja yang bisa Anda gunakan?</label
+              >
+            </div>
+            <div class="question-item">
+              <input type="checkbox" id="question4" />
+              <label for="question4"
+                >Bagaimana Anda menilai kemampuan bahasa Inggris Anda?</label
+              >
+            </div>
+            <div class="question-item">
+              <input type="checkbox" id="question5" />
+              <label for="question5"
+                >Apakah Anda bersedia bepergian untuk pekerjaan ini saat
+                dibutuhkan?</label
+              >
+            </div>
+            <div class="question-item">
+              <input type="checkbox" id="question6" />
+              <label for="question6"
+                >Bahasa apa saja yang fasih Anda gunakan?</label
+              >
+            </div>
+            <div class="question-item">
+              <input type="checkbox" id="question7" />
+              <label for="question7"
+                >Apakah Anda bersedia menjalani pemeriksaan latar
+                belakang?</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Referensi Pekerjaan Internal -->
+        <div class="internal-reference">
+          <label for="reference">Referensi pekerjaan internal (opsional)</label>
+          <input
+            type="text"
+            id="reference"
+            placeholder="Masukkan referensi pekerjaan internal Anda"
+          />
+        </div>
+      </div>
+      <!-- Form Section End -->
+
+      <!-- Submit Button -->
+      <div class="button-container">
+        <button class="btn-submit">Pasang Iklan Saya →</button>
+      </div>
+    </div>
+    <!-- Container Utama End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="#">Tentang SEEK</a>
+      <a href="#">Mitra International</a>
+      <a href="#">Layanan Mitra</a>
+      <a href="#">Keamanan</a>
+      <a href="#">Syarat dan Ketentuan</a>
+      <a href="#">Kunjungi Pusat Bantuan Kami</a>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="posting_pekerjaan_1.4_script.js"></script>
+  </body>
+</html>

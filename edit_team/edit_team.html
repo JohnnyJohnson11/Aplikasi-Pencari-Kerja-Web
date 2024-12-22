@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tim Anda</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="edit_team_styles.css" rel="stylesheet" />
+
+    <!-- Javascript -->
+    <script defer src="edit_page.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <h1><span class="highlight">Seek</span> Employer</h1>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pekerjaan</a></li>
+        <li><a href="#">Produk</a></li>
+        <li><a href="#">PT Adhimara</a></li>
+        <li><button class="post-job-btn">+ Posting Pekerjaan</button></li>
+      </ul>
+    </div>
+
+    <!-- Main -->
+    <main class="main-container">
+      <h1>Tim Anda</h1>
+
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <img alt="Search" class="icon" src="images/search_icon.png" />
+        <input placeholder="Cari nama atau email" type="text" />
+        <button class="add-team-btn">
+          <img alt="Add People" class="icon" src="images/add_people_icon.png" />
+          <span>Tambah anggota tim</span>
+        </button>
+      </div>
+
+      <!-- Team -->
+      <p class="team-count">1 Anggota tim</p>
+      <table class="team-table">
+        <thead>
+          <tr>
+            <th>Anggota Tim</th>
+            <th>Izin</th>
+            <th>Tindakan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <span class="role-label">Admin</span>
+              <p><strong>Agus Subiyanto</strong></p>
+              <p>agussubiyanto@gmail.com</p>
+            </td>
+            <td>
+              <button class="permission-btn">Posting pekerjaan</button>
+              <button class="permission-btn">Semua akses pekerjaan</button>
+            </td>
+            <td class="action-buttons">
+              <button class="edit-btn">
+                <img alt="Edit" src="images/edit_pencil_icon.png" />
+              </button>
+              <button class="more-btn">
+                <img alt="More" src="images/more_icon.png" />
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="#">Tentang SEEK</a>
+      <a href="#">Mitra International</a>
+      <a href="#">Layanan Mitra</a>
+      <a href="#">Keamanan</a>
+      <a href="#">Syarat dan Ketentuan</a>
+      <a href="#">Kunjungi Pusat Bantuan Kami</a>
+    </footer>
+  </body>
+</html>
